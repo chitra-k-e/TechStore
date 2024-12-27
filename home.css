@@ -65,7 +65,7 @@ body{
 
 .hero-section {
     height: 80vh;
-    background-image: url('assests/home_bg.jpg'); /* Replace with your image path */
+    background-image: url('home_bg.jpg'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
