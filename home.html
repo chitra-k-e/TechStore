@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TechStore</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="home1.css">
+    </head>
+    <body>
+        <div>
+            <div>
+                <nav class="navbar">
+                    <div class="nav-brand">
+                        <img src="assests/logo.png" alt="TechStore" class="logo">
+                    </div>
+                    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                    <label for="menu-toggle" class="hamburger" style="color: white;">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                    <div class="nav-links">
+                        <ul>
+                            <li><a href="home.html">Home</a></li>
+                            <li class="dropdown">
+                                <input type="checkbox" id="dropdown-toggle" class="dropdown-toggle">
+                                <label for="dropdown-toggle" class="dropbtn a">Category <i class="fa-solid fa-caret-down"></i></label>
+                                <div class="dropdown-content">
+                                    <a href="#mobiles">Mobiles, Tablets & Accessories</a>
+                                    <a href="#laptops">Laptops & Accessories    </a>
+                                    <a href="#televisions">Home Appliances</a>
+                                    <a href="#headphones">TV & Entertainment</a>
+                                    <a href="#appliances">Headphones & Speakers</a>
+                                </div>
+                            </li>
+                            <li><a href="signin.html">Sign up/in</a></li>
+                            <li><a href="#accessories"></a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-search">
+                        <input type="text" placeholder="Search products...">
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </div>
+                    <div class="nav-cart">
+                        <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                    </div>
+                </nav>
+            </div>
+            <div>
+                <section class="hero-section">
+                    <div class="hero-content">
+                        <h1>Welcome to TechStore</h1>
+                        <p>Discover the Latest in Technology</p>
+                        <button class="shop-now-btn">Shop Now</button>
+                    </div>
+                </section>
+            </div>
+            <div>
+                <section class="product-cards">
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="assests/c1.webp" alt="Product 1">
+                            <h3>Mobiles</h3>
+                        </div>
+                        <div class="card">
+                            <img src="assests/c2.webp" alt="Product 2">
+                            <h3>Air Purifires</h3>
+                        </div>
+                        <div class="card">
+                            <img src="assests/c3.webp" alt="Product 3">
+                            <h3>Televisions</h3>
+                        </div>
+                        <div class="card">
+                            <img src="assests/c4.webp" alt="Product 4">
+                            <h3>Laptops</h3>
+                        </div>
+                        <div class="card">
+                            <img src="assests/c5.webp" alt="Product 5">
+                            <h3>Headphones</h3>
+                        </div>
+                        <div class="card">
+                            <img src="assests/c6.webp" alt="Product 6">
+                            <h3>Kitchen Appliances</h3>
+                        </div>
+                        <div class="card">
+                            <img src="assests/c7.webp" alt="Product 7">
+                            <h3>Washing Machines</h3>
+                        </div>
+                        <div class="card">
+                            <img src="assests/c8.webp" alt="Product 8">
+                            <h3>Geysers</h3>
+                        </div>
+                        <div class="card">
+                            <img src="assests/c9.webp" alt="Product 9">
+                            <h3>Water Purifiers</h3>
+                        </div>
+                        <div class="card">
+                            <img src="assests/c10.webp" alt="Product 10">
+                            <h3>Home Theatres</h3>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div>
+                <section class="exclusive-deals">
+                    <h2 class="section-title">Exclusive Deals and Offers</h2>
+                    <div class="deals-container">
+                        <div class="deal-card">
+                            <img src="assests/p1.jpg" alt="Deal Product 1">
+                            <div class="deal-details">
+                                <h3>Marshall Middleton</h3>
+                                <p class="price">₹12,499</p>
+                                <button class="buy-now" onclick="window.location.href='product.html?id=1'">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="deal-card">
+                            <img src="assests/p2.jpg" alt="Deal Product 2">
+                            <div class="deal-details">
+                                <h3>Samsung 4K Smart TV</h3>
+                                <p class="price">₹45,999</p>
+                                <button class="buy-now" onclick="window.location.href='product.html?id=2'">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="deal-card">
+                            <img src="assests/p3.jpg" alt="Deal Product 3"> 
+                            <div class="deal-details">
+                                <h3>MacBook Air M2</h3>
+                                <p class="price">₹99,999</p>
+                                <button class="buy-now" onclick="window.location.href='product.html?id=3'">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="deal-card">
+                            <img src="assests/p4.jpg" alt="Deal Product 3">
+                            <div class="deal-details">
+                                <h3>Realme Buds T110 </h3>
+                                <p class="price">₹1,299</p>
+                                <button class="buy-now" onclick="window.location.href='product.html?id=4'">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+       <div>
+            <footer class="footer">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h4>About Us</h4>
+                        <ul>
+                            <li><a href="#">Our Story</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Press</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Customer Service</h4>
+                        <ul>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Shipping Policy</a></li>
+                            <li><a href="#">Returns & Exchanges</a></li>
+                            <li><a href="#">FAQs</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Connect With Us</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Newsletter</h4>
+                        <div class="newsletter">
+                            <input type="email" placeholder="Enter your email">
+                            <button type="submit">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 TechStore. All rights reserved.</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
